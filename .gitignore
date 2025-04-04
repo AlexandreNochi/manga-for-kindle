@@ -1,0 +1,48 @@
+# Node
+**/node_modules/
+**/dist/
+**/.turbo/
+**/.next/
+**/.cache/
+**/.eslintcache
+**/.tsbuildinfo
+
+# Logs
+**/logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Env
+**/.env
+**/.env.*.local
+**/.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.sw?
+.DS_Store
+
+# Docker
+**/Dockerfile.*
+**/docker-compose.override.yml
+**/.docker/
+
+# OS / misc
+Thumbs.db
+ehthumbs.db
+
+# Coverage reports
+**/coverage/
+
+# Build output (Next.js, NestJS, etc.)
+**/.output/
+
+# Optional: Zip/test outputs
+*.zip
+*.tar.gz
+**/tmp/
+
+**/trash/
