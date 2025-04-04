@@ -20,15 +20,10 @@
 **/.env.local
 
 # IDEs
-.vscode/
 .idea/
 *.sw?
 .DS_Store
 
-# Docker
-**/Dockerfile.*
-**/docker-compose.override.yml
-**/.docker/
 
 # OS / misc
 Thumbs.db

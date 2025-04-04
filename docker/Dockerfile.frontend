@@ -1,0 +1,10 @@
+FROM node:18
+
+WORKDIR /app
+
+COPY ./manga-for-kindle-front/package*.json ./
+RUN npm install
+
+COPY ./manga-for-kindle-front .
+
+CMD ["npm", "run", "dev"]

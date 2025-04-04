@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach NestJS in Docker",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "address": "localhost",
+      "restart": true,
+      "skipFiles": ["<node_internals>/**"],
+      "localRoot": "${workspaceFolder}/manga-for-kindle-back",
+      "remoteRoot": "/app"
+    },
+    // {
+    //   "name": "Attach NextJS in Docker",
+    //   "type": "node",
+    //   "request": "attach",
+    //   "port": 9230,
+    //   "address": "localhost",
+    //   "restart": true,
+    //   "skipFiles": ["<node_internals>/**"],
+    //   "localRoot": "${workspaceFolder}/manga-for-kindle-front",
+    //   "remoteRoot": "/app"
+    // },
+    {
+      "name": "Attach Image Worker",
+      "type": "node",
+      "request": "attach",
+      "port": 9231,
+      "address": "localhost",
+      "restart": true,
+      "skipFiles": ["<node_internals>/**"],
+      "localRoot": "${workspaceFolder}/manga-for-kindle-worker-image-process",
+      "remoteRoot": "/app"
+    },
+    {
+      "name": "Attach EPUB Worker",
+      "type": "node",
+      "request": "attach",
+      "port": 9232,
+      "address": "localhost",
+      "restart": true,
+      "skipFiles": ["<node_internals>/**"],
+      "localRoot": "${workspaceFolder}/manga-for-kindle-worker-epub-process",
+      "remoteRoot": "/app"
+    }
+  ]
+}

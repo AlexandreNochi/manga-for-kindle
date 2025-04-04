@@ -1,0 +1,10 @@
+FROM node:18
+
+WORKDIR /app
+COPY ./manga-for-kindle-back/package*.json ./
+RUN npm install
+
+COPY ./manga-for-kindle-back .
+
+# Suporte a debug com --inspect
+CMD ["npm", "run", "start:debug"]
