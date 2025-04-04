@@ -1,0 +1,12 @@
+[submodule "manga-for-kindle-back"]
+	path = manga-for-kindle-back
+	url = https://github.com/AlexandreNochi/manga-for-kindle-back
+[submodule "manga-for-kindle-front"]
+	path = manga-for-kindle-front
+	url = https://github.com/AlexandreNochi/manga-for-kindle-front
+[submodule "manga-for-kindle-worker-image-process"]
+	path = manga-for-kindle-worker-image-process
+	url = https://github.com/AlexandreNochi/manga-for-kindle-worker-image-process
+[submodule "manga-for-kindle-worker-epub-process"]
+	path = manga-for-kindle-worker-epub-process
+	url = https://github.com/AlexandreNochi/manga-for-kindle-worker-epub-process
